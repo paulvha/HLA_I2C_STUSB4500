@@ -15,7 +15,7 @@ Make sure you have a Saleae analyzer and software. This has been tested with a S
 During my testing I have made use of the [SparkFun Power Delivery Board - USB-C (Qwiic)](https://www.sparkfun.com/products/15801). I have used their library as well, although there a many others on github.
 
 ## Software installation
-If this analyser can not be selected through the ![Saleae interface](https://support.saleae.com/extensions/installing-extensions), or you want to make adjustments perform the following steps:
+If this analyser can not be selected through the [Saleae interface](https://support.saleae.com/extensions/installing-extensions), or you want to make adjustments perform the following steps:
 
 1. Create a new local extension follow instructions: [https://support.saleae.com/extensions/extensions-quickstart](https://support.saleae.com/extensions/extensions-quickstart)
 2. As part of the creation, you want be asked which folder you want to use.
