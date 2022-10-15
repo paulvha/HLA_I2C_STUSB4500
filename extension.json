@@ -1,0 +1,13 @@
+{
+  "name": "I2C_STUSB4500",
+  "apiVersion": "1.0.0",
+  "author": "Paulvha",
+  "version": "0.0.1",
+  "description": "Analyse the I2C communication STUSB4500",
+  "extensions": {
+    "I2C_STUSB4500": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
