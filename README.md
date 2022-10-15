@@ -6,18 +6,18 @@ It will decode (as much as possible) the data that is read/written to a register
 
 Finding the exact right description for each register is a HUGE challenge. Different documentation, different source files, different header files are not 100% in sync, but this is the best I could get to (for now). Who knows what we learn in the future.
 
-For analysing the USB-PD data between de STUSB4500-SINK and USB-PD power supply there is already another HLA![https://github.com/saleae/hla-usb-pd](https://github.com/saleae/hla-usb-pd). This can be selected as extension in Saleae as well.
+For analysing the USB-PD data between de STUSB4500-SINK and USB-PD power supply there is already another HLA [https://github.com/saleae/hla-usb-pd](https://github.com/saleae/hla-usb-pd/). This can be selected as extension in Saleae as well.
 
 Please report problems or additional information / remarks on github
 
 ## Prerequisites
 Make sure you have a Saleae analyzer and software. This has been tested with a Saleae Logic 8
-During my testing I have made use of the ![SparkFun Power Delivery Board - USB-C (Qwiic)](https://www.sparkfun.com/products/15801). I have used their library as well, although there a many others on github.
+During my testing I have made use of the [SparkFun Power Delivery Board - USB-C (Qwiic)](https://www.sparkfun.com/products/15801). I have used their library as well, although there a many others on github.
 
 ## Software installation
 If this analyser can not be selected through the ![Saleae interface](https://support.saleae.com/extensions/installing-extensions), or you want to make adjustments perform the following steps:
 
-1. Create a new local extension follow instructions: ![https://support.saleae.com/extensions/extensions-quickstart](https://support.saleae.com/extensions/extensions-quickstart)
+1. Create a new local extension follow instructions: [https://support.saleae.com/extensions/extensions-quickstart](https://support.saleae.com/extensions/extensions-quickstart)
 2. As part of the creation, you want be asked which folder you want to use.
 3. Copy / overwrite the 3 files : HighLevelAnalyzer.py, README.md and extension.json from this library in that folder.
 4. Restart the Saleae software and you should be able to see this HLA as local extension.
@@ -36,4 +36,4 @@ If this analyser can not be selected through the ![Saleae interface](https://sup
  * Paul van Haastrecht (paulvha@hotmail.com)
 
 ## Acknowledgments
-For reference I have included in ![extras folder](./extras) most relevant information I had.
+For reference I have included in [extras folder](./extras) most relevant information I had.
